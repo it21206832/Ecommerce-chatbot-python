@@ -1,0 +1,114 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning","heya","what's up?","how is it going?"],
+            "responses": ["Hello! Welcome to our online laptop store. How can I assist you today?", "Hey! It's great to see you. How can I assist you today?", 
+            "Hey there! Welcome to our online store. How can I help you?","Hi there! Ready to explore our laptop options today?", 
+            "Hello, what can I do for you today? Looking for laptop options?"]
+          },
+          {
+            "tag": "services",
+            "patterns": ["What can you do?","What services do you offer?","Tell me about your capabilities","How can you help me?","What can you assist with?",
+            "In what ways can you support me?","How can you support me" ,"List your services","What are your functions?", "What assistance can I expect from you?",
+            "List your capabilities","How do you provide assistance?","What tasks can you perform?","Can you assist me"],
+            "responses": [
+              "\n\nI'm your trusty digital assistant with a bag full of tricks!\n Here's what I can do for you:\n\n-Have questions about our products? I'm here to provide details, availability, and reveal the latest promotions.\n\n-I have a treasure trove of laptop details to share with you.\n\n-I can recommend the perfect products based on your preferences.\n\n-Just type your order ID, and I'll give you all the details about your order.\n\n-Wondering about product availability? Name the product, and I'll peek into our stock status for you.\n\n\nAsk me anything!"
+            ]
+          },
+          {
+            "tag": "product_recommendation",
+            "patterns": ["what laptops do you have","tell me about laptops","what kind of laptops you sell","what do you sell","selling products","Can you recommend me a laptop?", "Suggest me a good laptop", "Find me a laptop", "Find me a good laptop","Which laptop should I buy?",
+            "I need a laptop suggestion","Help me to choose a laptop","Recommend a laptop for me","Looking for laptop advice","Laptop recommendations, please",
+            "Laptop suggestions for my work","Show me laptop options", "Top laptops for students","What's a good laptop for gaming?","Laptops for gaming","laptops for students",
+            "any laptop recommentations", "Give me details on", "Find information about","laptop details","laptop information"],
+            "responses": ["\n\nHey! Let's explore the best laptops that suit for your needs.We have a variety of models to choose from\nLenovo\nAsus\nAsus i7\nHP ProBook\nAcer\nApple Macbook.\n\nwhich laptop are you interested in?(you must type laptop at the end)\n"]
+          },
+          {
+            "tag": "laptop_brands",
+            "patterns": [ "Show me laptop brands","laptop brands",
+                          "Tell me about popular laptop brands",
+                          "List of laptop brands",
+                          "Which laptop brands are the best?",
+                          "What are the top laptop manufacturers?",
+                          "Famous laptop brands",
+                          "Can you recommend a laptop brand?",
+                          "I'm looking for laptop brands",
+                          "Give me options from laptop manufacturers",
+                          "Brands of laptops",
+                          "Top-rated laptop brands",
+                          "Well-known laptop manufacturers",
+                          "Share some laptop brands with me"],
+            "responses": ["Curious about laptop brands? I'll share some details with you.These are the brands we have.\nLenovo\nAsus\nAsus i7\nHP ProBook\nAcer\nApple Macbook.\n\nwhich laptop brand are you interested in?(you must type laptop at the end)\n"]
+          },
+          {
+            "tag": "product_info",
+            "patterns": ["Tell me about", "laptop", "product"],
+            "responses": ["Sure"],
+            "context_set": "product_info"
+          },
+          {
+            "tag": "promotion_info",
+            "patterns": ["promotions", "What discounts are available?", "Any special offers?", "Promotions and discounts","Are there any deals?",
+                          "Tell me about current promotions",
+                          "Show me the latest discounts",
+                          "Promotional offers",
+                          "Discounts on products",
+                          "Special deals",
+                          "What's on sale?",
+                          "Can you help me save money?",
+                          "Promos and offers",
+                          "Discounted products",
+                          "Deals and discounts",
+                          "Share current promotions"],
+            "responses": ["You're about to discover the hottest discounts on our products.\nCurrently we give promotions for these laptops\n\nLenova laptops-Save upto 30%\n'Asus laptops-Save upto 25%'"],
+            "context_set": "promotion_info"
+          },
+          {
+            "tag": "order_info",
+            "patterns": ["What can you", "Give me details on my order", "Find information about my order","Check my order status",
+                          "Order details",
+                          "Tell me about my order",
+                          "I want to know about my order",
+                          "Can you provide order information?",
+                          "Share my order details",
+                          "Get info on my recent order",
+                          "What's the status of my order?",
+                          "Order status update",
+                          "Give me the details of my recent order",
+                          "Check my recent purchase"],
+            "responses": ["Sure inq"],
+            "context_set": "order_info"
+          },
+          {
+            "tag": "general_inquiry",
+            "patterns": ["Tell me about your return policy", "What payment methods do you accept?", "How can I contact customer support?", "Do you have a loyalty program?"],
+            "responses": ["I can provide information on that. Please specify your question.", "Sure, I can help with that. What do you want to know?"]
+          },
+          {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks a lot", "Appreciate your help", "You're awesome", "I'm thankful",
+            "You've been so helpful",
+            "I appreciate it",
+            "Big thanks to you"],
+            "responses": ["You're welcome! If you have more questions, feel free to ask.", "It was my pleasure assisting you. Don't hesitate to ask if you need anything else."]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "See you later", "Bye for now", "Farewell"],
+            "responses": ["Goodbye! Have a great day.", "Take care and have a wonderful day!"]
+          },
+          {
+            "tag": "fallback",
+            "patterns": ["Sorry, I don't know", "I'm not sure", "Can you repeat that?", "I didn't understand"],
+            "responses": ["I apologize, but I couldn't understand your request. Please try again or ask something else.", "I'm sorry, I couldn't catch that. Can you please rephrase your question?"]
+          },
+          {
+                "tag": "order_reference_no",
+                "patterns": ["My order reference no is {order_reference_no}", "this is my order reference no is "],
+                "responses": ["Let me check the status for you."],
+                "context_filter": "order_reference_no"
+              }
+        ]
+}
+      
