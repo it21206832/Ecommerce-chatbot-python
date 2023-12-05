@@ -1,5 +1,5 @@
 # Ecommerce-chatbot-python
-###Introduction
+<h2>Introduction</h2>
 <p>
 In a rapidly evolving digital landscape, businesses are continually seeking innovative ways to 
 enhance customer experiences and streamline operations. This project represents a pioneering 
@@ -12,8 +12,9 @@ recommendations, order tracking, and general product and service queries.
 ---
 
 <p>
-##Importance of the Project:
-
+<h3> 
+Importance of the Project:
+</h3> 
 In today's eCommerce landscape, customer interactions are increasingly occurring in digital 
 spaces. Providing seamless and efficient customer service has become not only a competitive 
 advantage but a business necessity. The laptop shop, like many modern businesses, faced the 
@@ -32,8 +33,9 @@ business decisions.
 
 ---
 <p>
-##Problem Statement:
-  
+<h3> 
+Problem Statement:
+</h3> 
 Our main challenge was meeting the rising need for efficient customer service in laptop retail. 
 Customers seek diverse information, from product suggestions to order updates. To resolve this, 
 we developed a responsive eCommerce chatbot. Integration with MySQL provided real-time 
