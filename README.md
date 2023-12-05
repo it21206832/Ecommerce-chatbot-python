@@ -43,10 +43,8 @@ product and order data, enhancing the customer experience.
 
 </p>
 
-##Technologies used: TensorFlow and Keras, Python, Flask, MySQL
+<h4>Technologies used: TensorFlow and Keras, Python, Flask, MySQL</h4>
 
-
-https://github.com/it21206832/Ecommerce-chatbot-python/assets/88273795/6f9e977b-1f90-48cd-a3ad-d64a87da2284
-
+https://github.com/it21206832/Ecommerce-chatbot-python/assets/88273795/8a51877b-4e10-4425-9033-ccf1dac81519
 
 
